@@ -19,7 +19,7 @@ int main(void) {
         printf("주류 구매가 불가능합니다. \n");
     }
     //else if (age <= 10) {
-    // pritf("미성년자입니다. \n");
+    // printf("미성년자입니다. \n");
     // printf("주류 구매가 불가능합니다. \n");
     // }
     }
