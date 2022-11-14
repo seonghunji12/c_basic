@@ -35,13 +35,13 @@ int main(void) { // main 함수(method)   void는 입력값을 주지 않겠다는 뜻
 
     //함수 호출: 함수를 사용하기위해 호출
     result = sum(a, b);  
-    printf("result: &d", result);
+    printf("result: %d", result);
 
 }
 
 // 1)함수 정의 : 함수 코드 구현
 int sum(int x, int y) {
-    int temp; //rtemp 지역변수    temp = x + y;
+    int temp; //temp 지역변수    temp = x + y;
     return temp; //함수 종료 후 반환값 int랑 return 한세트로 보면됨
 
 }
